@@ -5,23 +5,24 @@
   }
   body {
     background-image: url("../images/niceView.jpg");
-    font: 5% Arial, sans-serif;
-      text-align: left;
+    font: 100% Arial, sans-serif;
+    text-align: left;
+    border-left: 5%;
   }
   .form{
-    height: 600px;
+    height: 70%;
   }
   iframe{
-      border-width: 0;
+    border-width: 0;
     width: 100%;
     height: 60%;
   }
   .park{
-    height: 200px;
+    height: 20%;
     display:inline-block
   }
   img{
-    height: 250px;
+    height: 10%;
   }
   
   
