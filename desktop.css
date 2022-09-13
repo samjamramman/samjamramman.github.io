@@ -44,16 +44,13 @@ nav li{
   float: left;
   height: 100%;
   width: 10%;
-  vertical-align: center;
-  border-left: 10% purple;
 }
 nav a {
   display: block;
   color: white;
   text-align: center;
-  vertical-align: center;
   text-decoration: none;
-
+  border-left: 10% purple;
   height: 100%;
   width: 100%;
 }
