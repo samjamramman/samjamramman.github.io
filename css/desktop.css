@@ -6,18 +6,20 @@ body, html{
   height: 100%;
 }
 body {
-  background-image: url("../images/niceView.jpg");
-  font: 20px Arial, sans-serif;
+	background-image: url("../images/niceView.jpg");
+	font: 1vw Arial, sans-serif;
 	text-align: center;
-  border-top: 5%;
+}
+header{
+	border-top: 10vh;
 }
 .form{
   height: 1600px;
 }
 iframe{
 	border-width: 0;
-  width: 95%;
-  height: 700px;
+	width: 95%;
+	height: 700px;
 }
 .park{
   height: 400px;
@@ -29,42 +31,45 @@ img{
 
 
 nav ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 3%;
 }
 nav li{
-  float: left;
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+nav li:first-child{
+	width: 5%;
 }
 nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 8px 17px;
-  text-decoration: none;
-  border-left: 2px solid #bbb;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+    border-left: 0.15vw solid #bbb;
+	background-color: #333;
 }
 nav img{
   display: block;
-  height: 39px;
-  width: 90px;
+  height: 100%;
+  width: 100%;
 }
-nav ul:hover img{
-  height: 53px;
-  width: 90px;
-}
-nav ul:hover a{
-  padding: 15px 17px;
+nav ul:hover{
+  height: 6%;
 }
 nav a:hover{
   background-color: #111;
 }
 .active {
   background-color: #04AA6D;
-  color: white;
 }
 a{
   color: black;
