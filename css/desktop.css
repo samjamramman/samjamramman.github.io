@@ -10,9 +10,6 @@ body {
 	font: 1vw Arial, sans-serif;
 	text-align: center;
 }
-header{
-	border-top: 10vh;
-}
 .form{
   height: 1600px;
 }
@@ -37,7 +34,7 @@ nav ul {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 3%;
+	height: 5%;
 }
 nav li{
 	float: left;
@@ -45,12 +42,15 @@ nav li{
 	width: 10%;
 }
 nav li:first-child{
-	width: 5%;
+	width: 6%;
 }
 nav a {
-	display: block;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 	color: white;
 	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
 	height: 100%;
 	width: 100%;
@@ -63,7 +63,7 @@ nav img{
   width: 100%;
 }
 nav ul:hover{
-  height: 6%;
+  height: 7%;
 }
 nav a:hover{
   background-color: #111;
