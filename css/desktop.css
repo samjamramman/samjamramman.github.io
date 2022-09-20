@@ -7,7 +7,7 @@ body, html{
 }
 body {
 	background-image: url("../images/niceView.jpg");
-	font: 1vw Arial, sans-serif;
+	font: max(1.2vw, 10px) Arial, sans-serif;
 	text-align: center;
 }
 .form{
@@ -16,15 +16,17 @@ body {
 }
 iframe{
 	border-width: 0;
-	width: 100%;
+	width: 95%;
 	height: 50%;
 }
 .park{
   height: 30%;
-  display:inline-block
+  width: 25%;
+  display:inline-block;
 }
 img{
   height: 60%;
+  width: 95%;
 }
 header{
 	margin-top: 5vh;
