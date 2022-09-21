@@ -7,12 +7,14 @@ body, html{
 }
 body {
 	background-image: url("../images/niceView.jpg");
-	font: max(1.2vw, 10px) Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font: max(1.2vw, 15px) Arial, sans-serif;
 	text-align: center;
 }
 .form{
   height: 100%;
-  width: 40%;
+  width: 35%;
 }
 iframe{
 	border-width: 0;
@@ -45,7 +47,8 @@ nav ul {
 nav li{
 	float: left;
 	height: 100%;
-	width: 10%;
+	width: 13%;
+	overflow: hidden;
 }
 nav li:first-child{
 	width: 6%;
