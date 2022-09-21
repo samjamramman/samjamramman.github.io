@@ -9,7 +9,6 @@ body {
 	background-image: url("../images/niceView.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
 	font: max(1.2vw, 10px) Arial, sans-serif;
 	text-align: left;
 }
