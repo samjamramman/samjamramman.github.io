@@ -9,24 +9,27 @@ body {
 	background-image: url("../images/niceView.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	font: max(1.2vw, 10px) Arial, sans-serif;
+	font: max(2vw, 10px) Arial, sans-serif;
 	text-align: left;
 }
 .form{
   height: 100%;
-  width: 35%;
+  width: 100%;
 }
 iframe{
 	border-width: 0;
-	width: 95%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 }
-.park{
+#park{
   height: 30%;
-  width: 20%;
-  display:inline-block;
+  width: 100%;
+  display: flex;
 }
-img{
+#park img{
+	flex-grow: 100;
+}
+#facebook{
   height: 60%;
   width: 90%;
 }
@@ -41,7 +44,7 @@ nav ul {
 	position: fixed;
 	top: 0;
 	width: 10%;
-	height: 4%;
+	height: 5ch;
 }
 nav li{
 	display: none;
