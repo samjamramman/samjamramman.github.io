@@ -13,13 +13,13 @@ body {
 	text-align: center;
 }
 .form{
-  height: 100%;
+  height: 160vh;
   width: 35%;
 }
 iframe{
 	border-width: 0;
-	width: 90%;
-	height: 50%;
+	width: 100%;
+	height: 70%;
 }
 #park{
   height: 30%;
@@ -32,13 +32,25 @@ iframe{
 }
 #facebook{
   height: 60%;
-  width: 90%;
+  width: 100%;
+}
+.content {
+	box-sizing: border-box;
+	height: 80%;
+	width: 100%;
+	padding: 2%;
+}
+#calendar{
+	padding: 0.5%;
 }
 
+
 header {
+	display: block;
 	width: 100%;
 	height: 20%;
 	overflow: hidden;
+	background-image: linear-gradient(to bottom right, rgba(172, 0, 89, 0.48) , rgba(255, 0, 132, 0.61));
 }
 header  div{
 	margin: auto;
@@ -49,14 +61,22 @@ header  div{
 header img, h2{
 	flex-grow: 100;
 }
+nav{
+	display: block; 
+	height: 40%;
+	width: 100%,
+}
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #333;
-	position: sticky;
-	top: 0px;
 	width: 100%;
-	height: 40%;
+	height: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav li{
 	float: left;
