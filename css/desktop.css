@@ -22,8 +22,8 @@ iframe{
 	height: 70%;
 }
 #park{
-  height: 30%;
-  width: 65%;
+  height: 40%;
+  width: 60%;
   display: flex;
   margin: auto;
 }
@@ -40,7 +40,7 @@ iframe{
 	width: 100%;
 	padding: 2%;
 }
-#calendar{
+.content p{
 	padding: 0.5%;
 }
 
@@ -48,23 +48,29 @@ iframe{
 header {
 	display: block;
 	width: 100%;
-	height: 20%;
+	height: 25%;
 	overflow: hidden;
 	background-image: linear-gradient(to bottom right, rgba(172, 0, 89, 0.48) , rgba(255, 0, 132, 0.61));
 }
 header  div{
 	margin: auto;
 	display: flex;
-	height: 60%;
+	height: 75%;
 	width: 100%;
+	align-items: center;
+	overflow: hidden;
 }
-header img, h2{
+header h2{
 	flex-grow: 100;
 }
+header img{
+	width: 26%;
+	height: 100%
+}
 nav{
-	display: block; 
-	height: 40%;
-	width: 100%,
+	position: sticky;
+	height: 25%;
+	top: 0;
 }
 nav ul {
 	list-style-type: none;
@@ -83,6 +89,7 @@ nav li{
 	height: 100%;
 	width: 13%;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 nav a {
 	display: flex;
@@ -94,10 +101,9 @@ nav a {
 	text-decoration: none;
 	height: 100%;
 	width: 100%;
-	background-color: #333;
 }
-nav li:not(:first-child){
-	border-left: 0.15vw solid #bbb;
+nav li:not(:last-child){
+	border-right: 0.15vw solid #bbb;
 }
 nav a:hover{
   background-color: #111;
