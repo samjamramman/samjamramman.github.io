@@ -1,13 +1,12 @@
-window.onscroll = function() {myFunction()};
+const nav = document.querySelector('#nav');
+const navTop = nav.offsetTop
 
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+function fixedNav() {
+  if (window.scrollY >= navTop) {    
+    nav.classList.add('fixed');
   } else {
-    navbar.classList.remove("sticky");
+    nav.classList.remove('fixed');    
   }
 }
+
+window.addEventListener('scroll', fixedNav);
