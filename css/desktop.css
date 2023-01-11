@@ -18,7 +18,7 @@ body {
 }
 iframe{
 	border-width: 0;
-	width: 100%;
+	width: 85%;
 	height: 70%;
 }
 #park{
@@ -28,11 +28,12 @@ iframe{
   margin: auto;
 }
 #park img{
-	flex-grow: 100;
+	flex-grow: 1;
+	overflow: hidden;
 }
 #facebook{
   height: 60%;
-  width: 100%;
+  width: 85%;
 }
 .content {
 	box-sizing: border-box;
@@ -41,15 +42,18 @@ iframe{
 	padding: 2%;
 }
 .content p{
-	padding: 0.5%;
+	padding: 1%;
+}
+#welcome{
+	padding-bottom: 2%;
 }
 
 header {
 	display: block;
 	width: 100%;
-	height: 20%;
-	background-image: linear-gradient(to right, rgba(72, 180, 0, 0.8) , rgba(72, 161, 0, 0.8));
+	height: 15%;
 	display: flex;
+	background-image: linear-gradient(to bottom right, rgb(84, 155, 37) , rgb(63, 141, 0));
 	margin: auto;
 	align-items: center;
 	overflow: hidden;
