@@ -1,1 +1,1 @@
-print("Hi logan is stupid")
+print("kyle smells")
